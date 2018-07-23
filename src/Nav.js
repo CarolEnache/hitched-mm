@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import DropDown from './component/DropDown';
-import DummyData from './component/DummyData';
+import DummyData2 from './component/DummyData2';
 import './App.css';
 
-const nav = DummyData;
-
+const nav = DummyData2;
 class Nav extends Component {
 
   constructor(props){
@@ -12,29 +11,32 @@ class Nav extends Component {
 
     this.state = {
       navList: [],
+      item: []
     }
   }
 
   componentDidMount(){
+    const item = []
+    nav.map(i => {
+      item.push(i)
+    })
+    console.log(item)
     this.setState({
       navList: nav,
+      item: item
     })
   }
 
   render() {
-    const navList = this.state.navList;
+    const {navList, item} = this.state;
     return (
       <div className="Nav-bar">
-        {navList.map((item) => (
-          <div key={item.id}>
+        {item.map((i) => (
+          <div key={i.id}>
             <DropDown 
-              title={item.title}
-              list={item.list}
+              title={i.label}
+              list={i.list}
             />
-            {
-              item.key === 'test1'
-                && <p>More</p> 
-            }
           </div>
         ))}
       </div>

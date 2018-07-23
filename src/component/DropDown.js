@@ -32,8 +32,8 @@ class DropDown extends Component {
   }
 
   render(){
-
     const {listOpen, headerTitle, list, id} = this.state;
+    console.log(this.state)
     return[
       <div className='dd-wraper' key={id}>
         <a 
