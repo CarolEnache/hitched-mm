@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "title": "Fruits ",
+        "selected": false,
+        "key": "test1",
+        "list": [
+            {
+                "id": 0,
+                "title": "Apples"                        
+            },
+            {
+                "id": 1,
+                "title": "Oranges"                        
+            },
+            {
+                "id": 2,
+                "title": "Bananas "                        
+            },
+            {
+                "id": 3,
+                "title": "Strawberies"
+            },
+            {
+                "id": 4,
+                "title": "Mango"                        
+            },
+            {
+                "id": 5,
+                "title": "Kiwi"            
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Cities",
+        "selected": false,
+        "key": "test2",
+        "list":[
+            {
+                "id": 0,
+                "title": "New York "
+            },
+            {
+                "id": 1,
+                "title": "Dublin"
+            },
+            {
+                "id": 2,
+                "title": "California 2"
+            },
+            {
+                "id": 3,
+                "title": "Istanbul 2"
+            },
+            {
+                "id": 4,
+                "title": "Izmir 2"
+            },
+            {
+                "id": 5,
+                "title": "Oslo 2"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Pets",
+        "selected": false,
+        "key": "test3",
+        "list":  [
+            {
+                "id": 0,
+                "title": "Dog"
+            },
+            {
+                "id": 1,
+                "title": "Cats"
+            },
+            {
+                "id": 2,
+                "title": "Rabbits"
+            },
+            {
+                "id": 3,
+                "title": "Horses"
+            },
+            {
+                "id": 4,
+                "title": "Parrots"
+            },
+            {
+                "id": 5,
+                "title": "Something else"
+            }
+        ]
+    }
+]

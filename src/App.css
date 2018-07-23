@@ -1,0 +1,12 @@
+.Nav-bar {
+  width: 100%;
+  background-color: red;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dd-list {
+  list-style: none;
+  padding: 0;
+}
